@@ -1,1 +1,48 @@
 1. What is the difference between flex and grids?
+Grid Layout, is a two-dimensional grid-based layout system with rows and columns, making it easier 
+to design web pages without having to use floats and positioning. 
+Like tables, grid layout allow us to align elements into columns and rows.
+
+CSS Flexbox offers a one-dimensional layout. It is helpful in allocating and aligning the space among items in a container (made of grids). 
+It works with all kinds of display devices and screen sizes.
+
+2. Give an example of where we have to use grids and where we have to use flexbox?
+CSS grid is for layout, flexbox is for alignment.
+the main idea of a one-dimensional layout system does not make sense when you need to build a more complex layout design.
+For your layout, use CSS grid, for alignment of your elements, use flexbox.
+
+3. What does @media do?
+The @media rule is used in media queries to apply different styles for different media types/devices.
+Media queries can be used to check many things, such as:
+
+width and height of the viewport
+width and height of the device
+orientation (is the tablet/phone in landscape or portrait mode?)
+resolution
+
+4. What are the differences between relative and absolute in CSS?
+In a nutshell …
+position: relative places an element relative to its current position without changing the layout around it,
+whereas position: absolute places an element relative to its parent’s position and changing the layout around it.
+
+5. What is scoping?
+The scope is the current context of execution in which values and expressions are "visible" or can be referenced. If a variable or expression is not in the current scope, it will not be available for use.
+Scopes can also be layered in a hierarchy, so that child scopes have access to parent scopes, but not vice versa.
+
+6. What are closures?  Few Common Uses for closures:
+
+Closure means that an inner function always has 
+access to the vars and parameters of its outer function, even after the outer function has returned.
+
+7. What are the pros and cons of using Promises instead of callbacks?​
+Here are the pros of using promises over callbacks:
+Better defined and organized control flow of asynchronous logic.
+Highly reduced coupling.
+We have integrated error handling.
+Enhanced readability.
+
+It kills the purpose of asynchronous non-blocking I/O.
+Only one object can be returned.
+We cannot return multiple arguments.
+
+
