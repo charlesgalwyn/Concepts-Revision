@@ -43,6 +43,11 @@ Enhanced readability.
 
 It kills the purpose of asynchronous non-blocking I/O.
 Only one object can be returned.
-We cannot return multiple arguments.
+We cannot return multiple arguments
+
+8. What is DOM?
+DOM is object oriented representation of a web page,
+It represents the XML & HTML elements in a tree structure so that scripting laguages like JavaScript can easily access and
+modify the content . 
 
 
