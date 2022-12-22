@@ -48,6 +48,25 @@ We cannot return multiple arguments
 8. What is DOM?
 DOM is object oriented representation of a web page,
 It represents the XML & HTML elements in a tree structure so that scripting laguages like JavaScript can easily access and
-modify the content . 
+modify the content .
 
+9. Difference between Img & Picture tag.
+Suppose you use a simple Img tag for high-res images. In that case, that same image is used in each device your 
+application runs, and indeed it will result in performance issues in devices with lower screen resolutions like mobile devices.
+This issue can be easily addressed with thepicture tag by using srcset and sizes attributes.
+& Picture tag is useful in Art Direction.
+The main idea behind Art Direction is to display different images based on the screen sizes of the device. 
+With picture tag, we can easily achieve resolution switching by using multiple source tags inside the picture tag.
 
+10. Difference between ‘function declaration’ and ‘function expression’ in JavaScript
+Function Declaration:- 
+* A function declaration must have a function name
+* Function declaration does not require a variable assignment.
+* The function in function declaration can be accessed before and after the function definition.
+* Function declarations are hoisted.
+
+Function Expression:-
+* A function expression is similar to a function declaration without the function name.
+* Function expressions can be stored in a variable assignment.
+* The function in function expression can be accessed only after the function definition.
+* Function expressions are not hoisted
